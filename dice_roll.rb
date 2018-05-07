@@ -2,13 +2,13 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-#def roll
+def roll
   # code goes here
-#  rand(1..6)
-#end
+  rand(1..6)
+end
 
 
 def roll
-  range = [1,2,3,4,5,6]
-  range[rand(6)]
+  die = [1,2,3,4,5,6]
+  die[rand(6)]
 end
