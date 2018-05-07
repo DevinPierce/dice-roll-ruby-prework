@@ -6,3 +6,8 @@ def roll
   # code goes here
   rand(1..6)
 end
+
+range = [1,2,3,4,5,6]
+def roll
+  range[rand(6)]
+end
