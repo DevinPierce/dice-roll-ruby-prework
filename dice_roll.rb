@@ -7,7 +7,8 @@ def roll
   rand(1..6)
 end
 
-range = [1,2,3,4,5,6]
+
 def roll
+  range = [1,2,3,4,5,6]
   range[rand(6)]
 end
